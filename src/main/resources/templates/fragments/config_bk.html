@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <!-- configFragment -->
+    <th:block th:fragment="configFragment">
+            <!--Style 예시 -->
+            <link th:href="@{/css/style.css}" rel="stylesheet">
+
+            <!-- Javascript file 예시 -->
+            <script th:src="@{/js/file.js}"></script>
+    </th:block>
+</html>
